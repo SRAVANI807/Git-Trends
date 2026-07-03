@@ -9,7 +9,7 @@ import {
 import Dashboard from './components/Dashboard';
 import Watchlist from './components/Watchlist';
 
-const BACKEND_URL = "http://127.0.0.1:8000";
+const BACKEND_URL = "https://git-trends-backend.onrender.com";
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('dashboard');
